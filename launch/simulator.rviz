@@ -6,9 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /AMCLPose1
-        - /AMCLParticles1
-        - /FusedPose1
       Splitter Ratio: 0.5
     Tree Height: 1062
   - Class: rviz/Selection
@@ -250,7 +247,7 @@ Visualization Manager:
           Scale: 1
           Value: true
         Value: true
-      Enabled: true
+      Enabled: false
       Head Length: 0.30000001192092896
       Head Radius: 0.10000000149011612
       Name: AMCLPose
@@ -260,14 +257,14 @@ Visualization Manager:
       Shape: Arrow
       Topic: /amcl_pose
       Unreliable: false
-      Value: true
+      Value: false
     - Alpha: 1
       Arrow Length: 0.30000001192092896
       Axes Length: 0.30000001192092896
       Axes Radius: 0.009999999776482582
       Class: rviz/PoseArray
       Color: 255; 25; 0
-      Enabled: true
+      Enabled: false
       Head Length: 0.07000000029802322
       Head Radius: 0.029999999329447746
       Name: AMCLParticles
@@ -277,7 +274,7 @@ Visualization Manager:
       Shape: Arrow (Flat)
       Topic: /particlecloud
       Unreliable: false
-      Value: true
+      Value: false
     - Alpha: 1
       Axes Length: 1
       Axes Radius: 0.10000000149011612
@@ -308,6 +305,16 @@ Visualization Manager:
       Shape: Arrow
       Topic: /robot_pose_ekf/odom_combined
       Unreliable: false
+      Value: false
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: false
+      Name: SLAMMap
+      Topic: /map_slam
+      Unreliable: false
+      Use Timestamp: false
       Value: false
   Enabled: true
   Global Options:
