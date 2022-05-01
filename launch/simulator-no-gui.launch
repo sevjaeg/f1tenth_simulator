@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <launch>
+  <arg name="map_frame"  default="map"/>
+
   <!-- Launch a map from the maps folder-->
   <arg name="map" default="$(find f1tenth_simulator)/maps/f1_aut_wide.yaml"/>
   <node pkg="map_server" name="map_server" type="map_server" args="$(arg map)"/>
@@ -10,6 +12,7 @@
   <!-- Begin the simulator with the parameters from params.yaml -->
   <node pkg="f1tenth_simulator" name="f1tenth_simulator" type="simulator" output="screen">
     <rosparam command="load" file="$(find f1tenth_simulator)/params.yaml"/>
+    <param name="map_frame"  value="$(arg map_frame)"/>
   </node>
 
   <!-- Launch the mux node with the parameters from params.yaml -->
