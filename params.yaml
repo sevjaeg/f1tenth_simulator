@@ -115,7 +115,7 @@ new_drive_topic: "/new_drive"
 collision_file: "collision_file"
 
 # The names of the transformation frames published to
-map_frame: "map"
+#map_frame: "map"
 base_frame: "base_link"
 scan_frame: "laser"
 
