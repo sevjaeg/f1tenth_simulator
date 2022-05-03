@@ -1,4 +1,4 @@
-image: rect_slam.pgm
+image: rect_slam_final.pgm
 resolution: 0.050000
 origin: [-8.764968, -2.365605, 0.000000]
 negate: 0

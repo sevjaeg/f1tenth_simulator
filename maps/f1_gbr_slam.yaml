@@ -1,4 +1,4 @@
-image: f1_gbr_slam.pgm
+image: f1_gbr_slam_final.pgm
 resolution: 0.050000
 origin: [-18.162839, -4.005267, 0.000000]
 negate: 0
