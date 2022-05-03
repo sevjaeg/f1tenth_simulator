@@ -8,6 +8,7 @@ width: 0.2032 # meters
 buffer_length: 5
 
 # Limits on the speed and steering angle
+# TODO update
 max_speed: 7. #  meters/second
 max_steering_angle: 0.4189 # radians
 max_accel: 7.51 # meters/second^2
@@ -33,7 +34,7 @@ scan_field_of_view: 4.71 # radians
 
 # The distance from the center of the
 # rear axis (base_link) to the lidar
-scan_distance_to_base_link: 0.275 # meters
+scan_distance_to_base_link: 0.396 # meters
 
 # The standard deviation of the noise applied
 # to the lidar simulation
