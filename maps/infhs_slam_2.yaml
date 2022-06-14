@@ -1,4 +1,4 @@
-image: infhs_slam_2.pgm
+image: infhs_slam_2_fill.pgm
 resolution: 0.050000
 origin: [-15.683319, -11.723119, 0.000000]
 negate: 0
